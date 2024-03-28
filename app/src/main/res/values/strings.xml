@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="text_title">IREDEFOOD</string>
+    <string name="text_category_starters">ENTRADAS</string>
+    <string name="text_category_main">PRATOS PRINCIPAIS</string>
+    <string name="text_category_drinks">BEBIDAS</string>
+    <string name="text_category_dessert">SOBREMESAS</string>
+    <string name="button_complete_order">FINALIZAR PEDIDO</string>
+    <string name="price_canape">R$ 25,00</string>
+    <string name="price_cordeiromarroquino">R$ 35,00</string>
+    <string name="price_cremeaobourbon">R$ 50,00</string>
+    <string name="price_cupimmanteiga">R$ 65,00</string>
+    <string name="price_daiquiri">R$ 20,00</string>
+    <string name="price_filemeubrasil">R$ 65,00</string>
+    <string name="price_frangofrito">R$ 65,00</string>
+    <string name="price_frangoxadrez">R$ 30,00</string>
+    <string name="price_ginecha">R$ 25,00</string>
+    <string name="price_lombocordeiro">R$ 75,00</string>
+    <string name="price_macarraoatum">R$ 35,00</string>
+    <string name="price_mojito">R$ 30,00</string>
+    <string name="price_nhoque">R$ 65,00</string>
+    <string name="price_omboporco">R$ 65,00</string>
+    <string name="price_pailard">R$ 65,00</string>
+    <string name="price_panacota">R$ 38,00</string>
+    <string name="price_risotocogumelos">R$ 45,00</string>
+    <string name="price_risotopolvo">R$ 45,00</string>
+    <string name="price_ruballovapor">R$ 45,00</string>
+    <string name="price_salmao">R$ 85,00</string>
+    <string name="price_sangriasaque">R$ 20,00</string>
+    <string name="price_sunrise">R$ 18,00</string>
+    <string name="price_tabuacarne">R$ 55,00</string>
+    <string name="price_tabuaenchidos">R$ 65,00</string>
+    <string name="price_tabuaqueijos">R$ 85,00</string>
+    <string name="price_tortachocolate">R$ 45,00</string>
+    <string name="price_tortamaca">R$ 38,00</string>
+
+
+    <string name="text_desc_canape"><b>CANAPÉS</b> \n
+        Delicioso canapé com base de pão levemente tostado, coberto com uma generosa porção de salmão defumado, cream cheese fresco e uma pitada de dill fresco para um toque de frescor.\n
+        Tempo de Preparo: 15 minutos \n
+        Valor: R$ 25,00 (6 unidade)
+</string>
+    <string name="text_desc_tabuacarne"> <b>TÁBUA DE CARNE</b> \n
+        Uma seleção de carnes nobres cuidadosamente selecionadas e preparadas, incluindo filés mignon, costelas de cordeiro,  bifes
+        de contrafilé e fatias de picanha grelhada.\n
+          Tempo de Preparo: 15 minutos \n
+            Valor: R$ 55,00(Serve 2 pessoas)
+    </string>
+    <string name="text_desc_tabuaqueijos"><b>TÁBUA DE QUEIJOS</b> \n
+        Combinação de queijos suaves e cremosos, como o Brie e o Camembert,Gorgonzola e o Roquefort.
+        Com acompanhamentos artesanais de frutas frescas da estação, nozes crocantes, mel puro e pães rústicos. \n
+        Tempo de Preparo: 15 minutos \n
+        Preço: R$ 85,00 (Serve 2 pessoas)
+    </string>
+    <string name="text_desc_tabuaenchidos">  <b>TÁBUA DE ENCHIDOS</b> \n
+        Apresentando uma variedade de sabores e texturas em uma mistura cuidadosamente selecionada de salames, linguiças e chouriços,
+        acompanhados por pães frescos e condimentos gourmet. \n
+            Tempo de Preparo: 20 minutos \n
+        Preço: R$ 65,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_cordeiromarroquino"> <b>CORDEIRO MARROQUINO</b> \n
+        Apresenta tenros pedaços de cordeiro cozidos em um molho de especiarias marroquinas. Combinando
+        doçura e picância, é servido com cuscuz e amêndoas torradas. \n
+            Tempo de Preparo: 50 minutos \n
+        Preço: R$ 35,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_cupimmanteiga"> <b>CUPIM NA MANTEIGA</b> \n
+        Lentamente cozido em sua própria gordura até atingir uma textura macia e saborosa.
+        Servido com uma generosa camada de manteiga derretida, este clássico é um deleite irresistível para os amantes de carne.\n
+            Tempo de Preparo: 55 minutos \n
+        Preço: R$ 65,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_filemeubrasil"> <b>FILÉ MEU BRASIL</b> \n
+        Este prato apresenta suculentos filés de carne grelhados, acompanhados
+        de um molho rico e saboroso, ressaltando os sabores autênticos do Brasil. \n
+            Tempo de Preparo: 50 minutos \n
+        Preço: R$ 65,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_frangofrito"> <b>FRANGO FRITO</b> \n
+        Preparado com pedaços suculentos de frango marinados em temperos especiais e
+        empanados até atingir uma textura dourada e crocante por fora, mantendo a carne macia e suculenta por dentro. \n
+            Tempo de Preparo: 60 minutos \n
+        Preço: R$ 65,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_frangoxadrez"> <b>FRANGO XADREZ</b> \n
+        Combinação de pedaços suculentos de frango, pimentões coloridos, cebola, castanha de caju e molho agridoce.
+        Servido com arroz branco ou noodles\n
+            Tempo de Preparo: 40 minutos \n
+        Preço: R$ 30,00 (Porção Individual)</string>
+    <string name="text_desc_lombocordeiro"> <b>LOMBO DE CORDEIRO</b> \n
+        O lombo de cordeiro é cuidadosamente preparado e grelhado para atingir a perfeição. Com sua
+        textura macia e sabor marcante, é uma opção sofisticada que agrada aos paladares mais exigentes. \n
+            Tempo de Preparo: 60 minutos \n
+        Preço: R$ 75,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_macarraoatum"> <b>MACARRÃO COM ATUM</b> \n
+        Este prato combina macarrão al dente com atum suculento em um molho de tomate leve e aromático. Simples,
+        porém delicioso, é uma escolha perfeita para uma refeição satisfatória e cheia de sabor. \n
+            Tempo de Preparo: 35 minutos \n
+        Preço: R$ 35,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_nhoque">  <b>NHOQUE DE MANDIOQUINHA</b> \n
+        Uma deliciosa fusão entre a suavidade do nhoque e o sabor levemente adocicado da mandioquinha.
+        Esta especialidade italiana encanta com sua textura macia e seu aroma irresistível,. \n
+            Tempo de Preparo: 35 minutos \n
+        Preço: R$ 65,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_omboporco"> <b>LOMBO DE PORCO</b> \n
+        O lombo de porco é cuidadosamente temperado e assado até a perfeição,
+        resultando em uma carne macia e cheia de sabor. Servido com acompanhamentos tradicionais. \n
+            Tempo de Preparo: 40 minutos \n
+        Preço: R$ 65,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_pailard"> <b>PAILLARD DE FILÉ</b> \n
+        <b>CANAPÉS</b> \nO paillard é um corte fino de carne bovina, aves ou porco, grelhado rapidamente para manter sua suculência.
+        Servido com uma guarnição leve e fresca. \n
+            Tempo de Preparo: 60 minutos \n
+        Preço: R$ 65,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_risotocogumelos"> <b>RISOTO DE COGUMELOS</b> \n
+        Um prato cremoso e reconfortante, onde o arroz arbóreo é delicadamente cozido em caldo de
+        legumes e finalizado com uma mistura de cogumelos frescos, como shiitake, champignon e cogumelos selvagens.. \n
+            Tempo de Preparo: 50 minutos \n
+        Preço: R$ 45,00 (Serve 3 pessoas)</string>
+    <string name="text_desc_risotopolvo"> <b>RISOTO DE POLVOS</b> \n
+        Uma combinação perfeita de arroz cremoso e polvo macio, este prato oferece
+        uma experiência gastronômica única, onde a textura delicada do polvo se funde com a cremosidade do risoto. \n
+            Tempo de Preparo: 50 minutos \n
+        Preço: R$ 45,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_ruballovapor"> <b>RUBALLO NO VAPOR</b> \n
+        Uma opção leve e saudável, o robalo é cozido suavemente no vapor,
+        preservando sua textura delicada e sabor natural.  \n
+            Tempo de Preparo: 60 minutos \n
+        Preço: R$ 45,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_salmao">  <b>SALMÃO</b> \n
+        Delicado e suculento, o salmão grelhado é uma opção saudável e saborosa.
+        Temperado com ervas frescas e suco de limão. \n
+            Tempo de Preparo: 60 minutos \n
+        Preço: R$ 85,00 (Serve 2 pessoas)</string>
+    <string name="text_desc_daiquiri">  <b>DAIQUIRI</b> \n
+        Delicado e suculento, o salmão grelhado é uma opção saudável e saborosa.
+        Temperado com ervas frescas e suco de limão. \n
+            Tempo de Preparo: 10 minutos \n
+        Preço: R$ 20,00 </string>
+    <string name="text_desc_ginecha">  <b>GIN COM CHÁ</b> \n
+        Opção de drink para os dias quentes, o cheeta, criado pelo barman Rodney Viana,
+        do Monkey Bar, de São Paulo, tem chá de pêssego e limão siciliano entre os seus ingredientes, que deixam a bebida muito refrescante. \n
+            Tempo de Preparo: 10 minutos \n
+        Preço: R$ 25,00 </string>
+    <string name="text_desc_mojito">  <b>MOJITO</b> \n
+
+        Este drink leva uvas verdes sem caroço, mel de flor de laranjeira e espumante \n
+            Tempo de Preparo: 10 minutos \n
+        Preço: R$ 30,00 </string>
+    <string name="text_desc_sangriasaque">  <b>SANGRIA COM SAQUÊ</b> \n
+        Sangria de saquê: uma mistura refrescante de saquê com frutas frescas e
+        suco cítrico, perfeita para saborear momentos de descontração com um toque oriental.. \n
+            Tempo de Preparo: 10 minutos \n
+        Preço: R$ 20,00 </string>
+    <string name="text_desc_sunrise">  <b>SUNRISE</b> \n
+        Um coquetel vibrante que combina suco de laranja fresco com grenadine,
+        resultando em uma mistura refrescante e visualmente deslumbrante, perfeita para começar o dia ou iluminar qualquer ocasião.. \n
+            Tempo de Preparo: 10 minutos \n
+        Preço: R$ 18,00 </string>
+    <string name="text_desc_cremeaobourbon">  <b>CRÈME BRÛLÉE AO BOURBON</b> \n
+        Sobremesa clássica francesa combina a cremosidade do crème brûlée com o aroma sutil
+        da baunilha bourbon, contrastando com a frescura e doçura das frutas cuidadosamente selecionadas. \n
+            Tempo de Preparo: 20 minutos \n
+        Preço: R$ 50,00 </string>
+    <string name="text_desc_tortachocolate">  <b>TORTA DE CHOCOLATE BELGA COM GANACHE</b> \n
+        Intenso chocolate belga se encontra com a acidez refrescante da ganache de framboesa, tudo sobre uma base crocante,
+        acompanhado pela suavidade do sorvete de baunilha bourbon. \n
+            Tempo de Preparo: 30 minutos \n
+        Preço: R$ 45,00 </string>
+    <string name="text_desc_panacota">  <b>PANNA COTTA DE LAVANDA</b> \n
+        Combina a delicadeza da panna cotta infundida com lavanda, harmonizando-se perfeitamente com
+        a doçura das frutas vermelhas em uma compota brilhante e a textura crocante das amêndoas caramelizadas. \n
+            Tempo de Preparo: 30 minutos \n
+        Preço: R$ 38,00 </string>
+    <string name="text_desc_tortamaca">  <b>TARTE TARTIN DE MAÇÃ</b> \n
+        Fatias generosas de maçã caramelizadas encontram-se sob uma fina camada de massa crocante,
+        cobertas por um caramelo salgado irresistivelmente indulgente. Acompanhada pelo contraste suave e fresco do sorvete artesanal de creme. \n
+            Tempo de Preparo: 40 minutos \n
+        Preço: R$ 58,00 </string>
+
+
+
+
+
+
+</resources>

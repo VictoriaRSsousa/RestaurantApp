@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       tools:context=".MainActivity"
+       android:orientation="vertical">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingTop="16dp"
+       android:paddingBottom="16dp"
+       android:orientation="horizontal"
+       android:background="@color/purple">
+
+
+      <ImageView
+          android:id="@+id/logoImageView"
+          android:layout_width="36dp"
+          android:layout_height="36dp"
+         android:layout_marginStart="88dp"
+          android:src="@drawable/fastfood" />
+
+      <TextView
+          android:id="@+id/text_title"
+          android:text="@string/text_title"
+          android:textColor="@color/white"
+          android:textSize="32sp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingStart="16dp"
+          android:paddingEnd="16dp" />
+
+   </LinearLayout>
+
+   <TextView
+       android:id="@+id/text_category_starters"
+       android:text="@string/text_category_starters"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       android:layout_marginTop="32dp"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:id="@+id/image_canape"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/canape" />
+
+         <TextView
+             android:id="@+id/text_canape"
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:text="@string/text_desc_canape"
+             android:textSize="11sp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_canape"
+             android:tag="@string/price_canape"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+
+      <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image_tabuacarne"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="15dp"
+          android:src="@drawable/tabuacarne" />
+
+      <TextView
+          android:id="@+id/text_tabuacarne"
+          android:text="@string/text_desc_tabuacarne"
+          android:textSize="11sp"
+          android:layout_marginStart="10dp"
+          android:layout_height="wrap_content"
+          android:layout_width="200dp" />
+
+
+      <CheckBox
+          android:id="@+id/checkbox_tabuacarne"
+          android:tag="@string/price_tabuacarne"
+          android:layout_width="wrap_content"
+
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image_tabuaqueijos"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="15dp"
+          android:src="@drawable/tabuaqueijos" />
+
+      <TextView
+          android:id="@+id/text_tabuaqueijos"
+          android:text="@string/text_desc_tabuaqueijos"
+          android:textSize="11sp"
+          android:layout_marginStart="10dp"
+          android:layout_height="wrap_content"
+          android:layout_width="200dp" />
+
+
+      <CheckBox
+          android:id="@+id/checkbox_tabuaqueijos"
+          android:tag="@string/price_tabuaqueijos"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image_tabuaenchidos"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="15dp"
+          android:src="@drawable/tabuaenchidos" />
+
+      <TextView
+          android:id="@+id/text_desc_tabuaenchidos"
+          android:text="@string/text_desc_tabuaenchidos"
+          android:textSize="11sp"
+          android:layout_marginStart="10dp"
+          android:layout_height="wrap_content"
+          android:layout_width="200dp" />
+
+
+      <CheckBox
+          android:id="@+id/checkbox_tabuaenchidos"
+          android:tag="@string/price_tabuaenchidos"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+   <TextView
+       android:id="@+id/text_category_main"
+       android:text="@string/text_category_main"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       android:layout_marginTop="32dp"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image_cupimmanteiga"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="15dp"
+          android:src="@drawable/cupimmanteiga" />
+
+      <TextView
+          android:id="@+id/text_cupimmanteiga"
+          android:text="@string/text_desc_cupimmanteiga"
+          android:textSize="11sp"
+          android:layout_marginStart="10dp"
+          android:layout_height="wrap_content"
+          android:layout_width="200dp" />
+
+
+      <CheckBox
+          android:id="@+id/checkbox_cupimmanteiga"
+          android:tag="@string/price_cupimmanteiga"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image_filemeubrasil"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="15dp"
+          android:src="@drawable/filemeubrasil" />
+
+      <TextView
+          android:id="@+id/text_filemeubrasil"
+          android:text="@string/text_desc_filemeubrasil"
+          android:textSize="11sp"
+          android:layout_marginStart="10dp"
+          android:layout_height="wrap_content"
+          android:layout_width="200dp" />
+
+
+      <CheckBox
+          android:id="@+id/checkbox_filemeubrasil"
+          android:tag="@string/price_filemeubrasil"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image_frangofrito"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="15dp"
+          android:src="@drawable/frangofrito" />
+
+      <TextView
+          android:id="@+id/text_frangofrito"
+          android:text="@string/text_desc_frangofrito"
+          android:textSize="11sp"
+          android:layout_marginStart="10dp"
+          android:layout_height="wrap_content"
+          android:layout_width="200dp" />
+
+
+      <CheckBox
+          android:id="@+id/checkbox_frangofrito"
+          android:tag="@string/price_frangofrito"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image_frangoxadrez"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="15dp"
+          android:src="@drawable/frangoxadrez" />
+
+      <TextView
+          android:id="@+id/text_desc_frangoxadrez"
+          android:text="@string/text_desc_frangoxadrez"
+          android:textSize="11sp"
+          android:layout_marginStart="10dp"
+          android:layout_height="wrap_content"
+          android:layout_width="200dp" />
+
+
+      <CheckBox
+          android:id="@+id/checkbox_frangoxadrez"
+          android:tag="@string/price_frangoxadrez"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_cordeiromarroquino"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/cordeiromarroquino" />
+
+         <TextView
+             android:id="@+id/text_desc_cordeiromarroquino"
+             android:text="@string/text_desc_cordeiromarroquino"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_cordeiromarroquino"
+             android:tag="@string/price_cordeiromarroquino"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+      <ImageView
+          android:id="@+id/image_risotocogumelos"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+          android:layout_marginStart="15dp"
+          android:src="@drawable/risotocogumelos" />
+
+      <TextView
+          android:id="@+id/text_desc_risotocogumelos"
+          android:text="@string/text_desc_risotocogumelos"
+          android:textSize="11sp"
+          android:layout_marginStart="10dp"
+          android:layout_height="wrap_content"
+          android:layout_width="200dp" />
+
+
+      <CheckBox
+          android:id="@+id/checkbox_risotocogumelos"
+          android:tag="@string/price_risotocogumelos"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+   </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_lombocordeiro"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/lombocordeiro" />
+
+         <TextView
+             android:id="@+id/text_desc_lombocordeiro"
+             android:text="@string/text_desc_lombocordeiro"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_lombocordeiro"
+             android:tag="@string/price_lombocordeiro"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_macarraoatum"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/macarraoatum" />
+
+         <TextView
+             android:id="@+id/text_desc_macarraoatum"
+             android:text="@string/text_desc_macarraoatum"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_macarraoatum"
+             android:tag="@string/price_macarraoatum"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_nhoque"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/nhoque" />
+
+         <TextView
+             android:id="@+id/text_desc_nhoque"
+             android:text="@string/text_desc_nhoque"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_nhoque"
+             android:tag="@string/price_nhoque"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:id="@+id/image_omboporco"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/omboporco" />
+
+         <TextView
+             android:id="@+id/text_desc_omboporco"
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:text="@string/text_desc_omboporco"
+             android:textSize="11sp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_omboporco"
+             android:tag="@string/price_omboporco"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_pailard"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/pailard" />
+
+         <TextView
+             android:id="@+id/text_desc_pailard"
+             android:text="@string/text_desc_pailard"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_pailard"
+             android:tag="@string/price_pailard"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_risotopolvo"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/risotopolvo" />
+
+         <TextView
+             android:id="@+id/text_desc_risotopolvo"
+             android:text="@string/text_desc_risotopolvo"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_risotopolvo"
+             android:tag="@string/price_risotopolvo"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_ruballovapor"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/ruballovapor" />
+
+         <TextView
+             android:id="@+id/text_desc_ruballovapor"
+             android:text="@string/text_desc_ruballovapor"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_ruballovapor"
+             android:tag="@string/price_ruballovapor"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_salmao"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/salmao" />
+
+         <TextView
+             android:id="@+id/text_desc_salmao"
+             android:text="@string/text_desc_salmao"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_salmao"
+             android:tag="@string/price_salmao"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/text_category_drinks"
+          android:text="@string/text_category_drinks"
+          android:textColor="@color/black"
+          android:textSize="20sp"
+          android:layout_marginTop="32dp"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp">
+         <ImageView
+             android:id="@+id/image_daiquiri"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/daiquiri" />
+
+         <TextView
+             android:id="@+id/text_daiquiri"
+             android:text="@string/text_desc_daiquiri"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_daiquiri"
+             android:tag="@string/price_daiquiri"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp">
+         <ImageView
+             android:id="@+id/image_ginecha"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/ginecha" />
+
+         <TextView
+             android:id="@+id/text_ginecha"
+             android:text="@string/text_desc_ginecha"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_ginecha"
+             android:tag="@string/price_ginecha"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp">
+         <ImageView
+             android:id="@+id/image_mojito"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/mojito" />
+
+         <TextView
+             android:id="@+id/text_mojito"
+             android:text="@string/text_desc_mojito"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_mojito"
+             android:tag="@string/price_mojito"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp">
+         <ImageView
+             android:id="@+id/image_sangriasaque"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/sangriasaque" />
+
+         <TextView
+             android:id="@+id/text_desc_sangriasaque"
+             android:text="@string/text_desc_sangriasaque"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_samgriasaque"
+             android:tag="@string/price_sangriasaque"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          >
+         <ImageView
+             android:id="@+id/image_sunrise"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/sunrise"/>
+         <TextView
+             android:id="@+id/text_desc_sunrise"
+             android:text="@string/text_desc_sunrise"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_sunrise"
+             android:tag="@string/price_sunrise"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+
+
+      <TextView
+          android:id="@+id/text_category_desset"
+          android:text="@string/text_category_dessert"
+          android:textColor="@color/black"
+          android:textSize="20sp"
+          android:layout_marginTop="32dp"
+          android:layout_gravity="center"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:id="@+id/image_cremeaobourbon"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/cremeaobourbon" />
+
+         <TextView
+             android:id="@+id/text_cremeaobourbon"
+             android:layout_width="200dp"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:text="@string/text_desc_cremeaobourbon"
+             android:textSize="11sp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_cremeaobourbon"
+             android:tag="@string/price_cremeaobourbon"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_panacota"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/panacota" />
+
+         <TextView
+             android:id="@+id/text_panacota"
+             android:text="@string/text_desc_panacota"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_panacota"
+             android:tag="@string/price_panacota"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_tortachocolate"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/tortachocolate" />
+
+         <TextView
+             android:id="@+id/text_tortachocolate"
+             android:text="@string/text_desc_tortachocolate"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_tortachocolate"
+             android:tag="@string/price_tortachocolate"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/image_tortamaca"
+             android:layout_width="150dp"
+             android:layout_height="150dp"
+             android:layout_marginStart="15dp"
+             android:src="@drawable/tortamaca" />
+
+         <TextView
+             android:id="@+id/text_desc_tortamaca"
+             android:text="@string/text_desc_tortamaca"
+             android:textSize="11sp"
+             android:layout_marginStart="10dp"
+             android:layout_height="wrap_content"
+             android:layout_width="200dp" />
+
+
+         <CheckBox
+             android:id="@+id/checkbox_tortamaca"
+             android:tag="@string/price_tortamaca"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+      </LinearLayout>
+
+
+
+      <Button
+          android:id="@+id/button_complete_order"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:text="@string/button_complete_order"
+          android:layout_marginTop="32dp"
+          android:backgroundTint="@color/purple"
+          android:layout_marginBottom="52dp"
+          />
+
+
+
+
+
+
+
+   </LinearLayout>
+</ScrollView>
